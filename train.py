@@ -146,9 +146,12 @@ if __name__ == "__main__":
 
     T = 1
     for i in range(T):
-        alpha = [0.1, 0.3, 0.5, 0.7, 0.9, 1]
-        beta = [0.01, 0.1, 1, 10, 100]
-        gamma = [0.01, 0.1, 1, 10, 100]
+        # alpha = [0.1, 0.3, 0.5, 0.7, 0.9, 1]
+        # beta = [0.01, 0.1, 1, 10, 100]
+        # gamma = [0.01, 0.1, 1, 10, 100]
+        alpha = [0.1]
+        beta = [0.01]
+        gamma = [1]
         for args.temperature_l in alpha:
             for args.lamda_P in beta:
                 for args.lamda_Q in gamma:
